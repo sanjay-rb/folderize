@@ -1,6 +1,13 @@
+import argparse
+
+
 def main():
-    print("This is the main function of core.py")
+    parser = argparse.ArgumentParser(
+        description="Folderize: Organize your files into folders based on their extensions."
+    )
+    args = parser.parse_args()
 
-
-if __name__ == "__main__":
-    main()
+    if args.name:
+        print(f"Hello, {args.name}!")
+    else:
+        print("Hello!")

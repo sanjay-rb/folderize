@@ -2,8 +2,9 @@ import argparse
 
 
 def main():
-    parser = argparse.ArgumentParser(description="My CLI tool")
-    parser.add_argument("--name", help="Your name")
+    parser = argparse.ArgumentParser(
+        description="Folderize: Organize your files into folders based on their extensions."
+    )
     args = parser.parse_args()
 
     if args.name:

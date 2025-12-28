@@ -1,0 +1,34 @@
+[build-system]
+requires = ["setuptools>=77.0.3"]  # Pin minimum version
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "folderize"
+description = "Automate repetitive folder and file creation"
+readme = "README.md"
+requires-python = ">=3.8"
+version = "0.1.0"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+authors = [
+  { name = "Sanjay RB", email = "sanjaybabu618@gmail.com" }
+]
+dependencies = [
+    "PyYAML>=6.0"
+]
+
+[project.urls]
+Homepage = "https://github.com/yourusername/folderize"
+Repository = "https://github.com/yourusername/folderize.git"
+
+[project.scripts]
+folderize = "folderize.core:main"
+
+[tool.setuptools]
+package-dir = { "" = "src" }
+
+[tool.setuptools.packages.find]
+where = ["src"]

@@ -20,6 +20,9 @@ dependencies = [
     "PyYAML>=6.0"
 ]
 
+[project.optional-dependencies]
+test = ["pytest>=7.0"]
+
 [project.urls]
 Homepage = "https://github.com/yourusername/folderize"
 Repository = "https://github.com/yourusername/folderize.git"

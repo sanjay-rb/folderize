@@ -1,0 +1,23 @@
+<project>:
+    ddl:
+        hive:
+            table:
+                .gitkeep: ""
+            view:
+                .gitkeep: ""
+        snowflake:
+            table:
+                .gitkeep: ""
+            view:
+                .gitkeep: ""
+            external_table:
+                .gitkeep: ""
+            stage:
+                .gitkeep: ""
+            file_format:
+                .gitkeep: ""
+    dbt:
+        models:
+            .gitkeep: ""
+    dags:
+        .gitkeep: ""

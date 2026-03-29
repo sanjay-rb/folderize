@@ -24,8 +24,8 @@ dependencies = [
 test = ["pytest>=7.0"]
 
 [project.urls]
-Homepage = "https://github.com/yourusername/folderize"
-Repository = "https://github.com/yourusername/folderize.git"
+Homepage = "https://github.com/sanjay-rb/folderize"
+Repository = "https://github.com/sanjay-rb/folderize.git"
 
 [project.scripts]
 folderize = "folderize.core:main"

@@ -2,22 +2,22 @@
     ddl:
         hive:
             table:
-                .gitkeep: Empty file to keep the directory in git
+                .gitkeep: ""
             view:
-                .gitkeep: Empty file to keep the directory in git
+                .gitkeep: ""
         snowflake:
             table:
-                .gitkeep: Empty file to keep the directory in git
+                .gitkeep: ""
             view:
-                .gitkeep: Empty file to keep the directory in git
+                .gitkeep: ""
             external_table:
-                .gitkeep: Empty file to keep the directory in git
+                .gitkeep: ""
             stage:
-                .gitkeep: Empty file to keep the directory in git
+                .gitkeep: ""
             file_format:
-                .gitkeep: Empty file to keep the directory in git
+                .gitkeep: ""
     dbt:
         models:
-            .gitkeep: Empty file to keep the directory in git
+            .gitkeep: ""
     dags:
-        .gitkeep: Empty file to keep the directory in git
+        .gitkeep: ""

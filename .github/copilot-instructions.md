@@ -19,7 +19,10 @@
   - `folderize STRUCTURE.yaml`
   - `folderize STRUCTURE.yaml -D project=my_project`
 - Because the CLI writes files/directories immediately, run verification commands in a temporary directory unless intentional.
-- There is currently no automated test suite under test/; if adding tests, place them in test/ and document the exact test command in this file.
+- There is an automated test suite under `test/`. Run it with:
+  ```
+  pytest -q test/
+  ```
 
 ## Conventions
 - Default input file is `STRUCTURE.yaml` when no positional file argument is provided.
